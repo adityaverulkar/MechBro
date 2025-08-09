@@ -11,7 +11,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.prompts import PromptTemplate
 import time
 
-# --- Helper Functions (No changes here) ---
+# --- Helper Functions ---
 
 def get_pdf_text(pdf_docs):
     """Extracts text from a list of uploaded PDF files."""
@@ -284,4 +284,5 @@ def main():
 
 
 if __name__ == '__main__':
+
     main()
